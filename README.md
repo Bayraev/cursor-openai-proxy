@@ -13,6 +13,10 @@ Use it from another harness (e.g. Deepseek Harness) by pointing `base_url` at th
 
 If you only need chat completions without workspace tools, `CURSOR_API_KEY` + this proxy is enough. For CLI-shaped parity without the SDK, community projects like [`cursor-api-proxy`](https://www.npmjs.com/package/cursor-api-proxy) wrap the **Cursor agent CLI** instead.
 
+## Note
+
+You can run this proxy, then ask your another harness to add models in the list.
+
 ## Setup
 
 1. Create a key: [Cursor Dashboard → Integrations](https://cursor.com/dashboard/integrations) (or a team service account).
