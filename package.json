@@ -1,0 +1,24 @@
+{
+  "name": "cursor-openai-proxy",
+  "version": "0.1.0",
+  "private": true,
+  "description": "OpenAI-compatible HTTP proxy for Cursor models via @cursor/sdk (no Cursor CLI)",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@cursor/sdk": "^1.0.35",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
